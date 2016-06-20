@@ -1,7 +1,7 @@
 # WordItOut
 Vocabulary improving android application
 
-It contains words on three themes namely Technology, Geography and Animals
+It contains words on three themes namely Technology, Geography and Animals..
 User has to guess the correct word based on a hint provided.
 Regardless of whether the user's guess is correct or incorrect, he will be provided the following things:-
 
