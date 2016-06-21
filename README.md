@@ -15,4 +15,5 @@ Regardless of whether the user's guess is correct or incorrect, he will be provi
 2) iSpeech API for pronunciation of the word                                                            
 3) Google dictionary to extract the meaning of the words                                                    
 
-
+Install the .apk file to try out the app on an android device                                                             
+app/build/outputs/apk/
