@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#E1BEE7"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/container_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="-10dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Word"
+            android:id="@+id/word"
+            android:layout_gravity="center"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Word"
+            android:id="@+id/desc"
+            android:gravity="center"
+            android:textSize="20sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Pronunciation"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:layout_marginTop="-1dp"
+            android:background="@drawable/my_button"
+            android:id="@+id/voice"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Bing It"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/my_button"
+            android:id="@+id/bing"/>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Continue Playing"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/my_button"
+            android:id="@+id/cont"/>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="New Game"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/my_button"
+            android:id="@+id/newgame"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+</LinearLayout><!-- From: file:/C:/Users/Nitish/AndroidStudioProjects/WordItOut/app/src/main/res/layout/suggestion_layout.xml -->
